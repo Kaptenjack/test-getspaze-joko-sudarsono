@@ -14,4 +14,4 @@ function faktorial($angka) {
     return $result;
 }
 
-echo faktorial(5);
+echo faktorial(8) . "\n";

@@ -8,7 +8,7 @@ function deretBintang($limit) {
     for ($i = 1; $i <= $limit; $i++) {
         if ($currentVal <= $limit && $type == 'top') {
             for ($j = 1; $j <= $currentVal; $j++) {
-                echo '*';
+                echo "*";
             }
 
             $currentVal = $currentVal + 2;

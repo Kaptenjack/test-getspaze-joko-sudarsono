@@ -7,11 +7,11 @@ function fibonacci($panjangBilangan) {
     
     for ($i = 0; $i <= $panjangBilangan; $i++) {
         $result = $angkaSekarang + $angkaSebelumnya;
-        echo "$result \n";
+        echo floatval($result) . "\n";
 
         $angkaSebelumnya = $angkaSekarang;
         $angkaSekarang = $result;
     }
 }
 
-fibonacci(20);
+fibonacci(120);

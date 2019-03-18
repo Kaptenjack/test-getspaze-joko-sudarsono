@@ -10,9 +10,9 @@ function prima($total) {
         }
         
         if ($a == 2) {
-            echo $i . "\n <br>";
+            echo $i . "\n";
         }
     }
 }
 
-prima(50);
+prima(20);
